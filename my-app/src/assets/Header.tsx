@@ -30,7 +30,7 @@ function Header() {
                         manotosh.dev
                     </div>
                     <div className='hidden md:flex items-center space-x-10'>
-                        {['Home', 'About', 'Projects', 'Skills'].map((item) => (
+                        {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
                             <button
                                 key={item}
                                 onClick={() => scrollToSection(item.toLowerCase())}
