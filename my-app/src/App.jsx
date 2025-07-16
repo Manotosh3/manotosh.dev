@@ -1,12 +1,13 @@
-//import { useState } from 'react'
-import './App.css'
+import React from "react";
+import Header from './assets/Header'
 
 function App() {
-  //const [count, setCount] = useState(0)
+   return ( 
+    <div className="min-h-screen bg-[#4a4a4a]">
+      <Header />
 
-  return (
-    <></>
-  )
+    </div>
+  );
 }
 
 export default App
