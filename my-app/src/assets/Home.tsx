@@ -1,13 +1,13 @@
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail, Twitter } from 'lucide-react';
 
-const Hero = () => {
+const Home = () => {
   const scrollToAbout = () => {
     document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative bg-[#4a4a4a]">
+    <section id="home" className="min-h-screen flex items-center justify-center relative bg-[#5a5a5a]">
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <div className="mb-12">
@@ -58,4 +58,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
