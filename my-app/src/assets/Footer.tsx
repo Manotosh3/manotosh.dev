@@ -40,16 +40,16 @@ function Footer() {
                             Building modern digital solutions with clean code, DevOps efficiency, and Web3 experimentation — from India to the world.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
+                            <a href="https://github.com/Manotosh3" className="text-gray-300 hover:text-white transition-colors duration-200">
                                 <Github size={20} />
                             </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
+                            <a href="https://www.linkedin.com/in/manotosh-kumar-phade-321b6226b/" className="text-gray-300 hover:text-white transition-colors duration-200">
                                 <Linkedin size={20} />
                             </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
+                            <a href="https://x.com/manotosh_phade" className="text-gray-300 hover:text-white transition-colors duration-200">
                                 <Twitter size={20} />
                             </a>
-                            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
+                            <a href="mailto:manotoshphade3@gmail.com" className="text-gray-300 hover:text-white transition-colors duration-200">
                                 <Mail size={20} />
                             </a>
                         </div>

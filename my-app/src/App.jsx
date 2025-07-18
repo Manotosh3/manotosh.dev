@@ -2,9 +2,9 @@ import React from "react";
 import Header from './assets/Header'
 import Home from './assets/Home'
 import About from './assets/About'
- import GitCal from './assets/Git'
-// import Projects from './assets/Projects'
-// import Skills from './assets/Skills'
+import GitCal from './assets/Git'
+import Projects from './assets/Projects'
+import Skills from './assets/Skills'
 // import Contact from './assets/Contact'
 import Footer from './assets/Footer'
 
@@ -15,6 +15,8 @@ function App() {
       <Home />
       <About />
       <GitCal />
+      <Projects />
+      <Skills />
       <Footer />
     </div>
   );

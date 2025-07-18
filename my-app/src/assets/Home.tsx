@@ -26,9 +26,14 @@ const Home = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
-            <button className="border border-white text-white px-10 py-3 font-light tracking-widest text-sm hover:bg-white hover:text-[#6b6b6b] transition-all duration-300">
+            <a 
+              href='https://docs.google.com/document/d/e/2PACX-1vROiJ1Vlk2PWPOKRwoIIyUXxjCKw4tB590-e4R4PwZ2TN7cOh3fms4dk5tdJ_Sw3o1Rqch5hUhYjB8O/pub'
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-white text-white px-10 py-3 font-light tracking-widest text-sm hover:bg-white hover:text-[#5a5a5a] transition-all duration-300 inline-block"
+            >
               DOWNLOAD CV
-            </button>
+            </a>
           </div>
 
           <div className="flex items-center justify-center space-x-8">
