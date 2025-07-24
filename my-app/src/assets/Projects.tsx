@@ -5,85 +5,109 @@ function Projects() {
     const [currentPage, setCurrentPage] = useState(0);
     const projects = [
         {
-        title: 'To-Do Application',
+        title: 'My-travel-blog',
+        description: 'Wandering solo, collecting stories, and sharing the world through my eyes.',
+        image:"https://images.pexels.com/photos/2577274/pexels-photo-2577274.jpeg?_gl=1*tw5gms*_ga*MzgxNjQ0MjkyLjE3NTMzNDE5NTM.*_ga_8JE65Q40S6*czE3NTMzNDE5NTMkbzEkZzEkdDE3NTMzNDIwMTgkajU5JGwwJGgw",
+        tags: ['React', 'Node.js', 'mpx', 'Typescript', 'Next.js'],
+        github: '#',
+        live: '#'
+        },
+        {
+        title: 'CineGusser', // Secure contract upload, smart search, template generator. Automated email reminders, e signature integration (DocuSign API). Audit trail, clause extraction using NLP. Role-based access, legal calendar, export to PDF/Word, invoice-sidecar.
         description: 'A full stack app',
-        image:"#",
+        image:"https://store-images.microsoft.com/image/apps.34621.9007199266556636.b4551e45-9512-4393-b3d5-b216b82715e8.737bac45-dc54-48bd-854e-c9894fbc66bd?h=1280",
         tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
         github: '#',
         live: '#'
         },
         {
-        title: 'To-Do Application',
+        title: '3',
+        description: 'To-Do Application',
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfV39WzaCr66H9DwGafv-l8cuyZWaX3RHqfA&s",
+        tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
+        github: '#',
+        live: '#'
+         },
+        {
+        title: 'SentimentScope ', 
         description: 'A full stack app',
-        image:"#",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1d0Plvcud83tgqf9Y8FBNgdR74ZhX85U_JtG-u76zmHZ2YkRY",
         tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
         github: '#',
         live: '#'
         },
         {
-        title: 'To-Do Application',
-        description: 'A full stack app',
-        image:"#",
+        title: 'Course Selling Application',
+        description: 'A full stack app', // DevOps-1
+        image:"https://cdn.wallpapersafari.com/88/91/NFkuMD.jpg",
         tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
         github: '#',
         live: '#'
         },
-        {
-        title: 'To-Do Application',
-        description: 'A full stack app',
-        image:"#",
-        tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
-        github: '#',
-        live: '#'
-        },
-        {
-        title: 'To-Do Application',
-        description: 'A full stack app',
-        image:"#",
-        tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
-        github: '#',
-        live: '#'
-        },
-        {
-        title: 'To-Do Application',
-        description: 'A full stack app',
-        image:"#",
-        tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
-        github: '#',
-        live: '#'
-        },
-        {
-        title: 'To-Do Application',
-        description: 'A full stack app',
-        image:"#",
-        tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
-        github: '#',
-        live: '#'
-        },
-        {
-        title: 'To-Do Application',
-        description: 'A full stack app',
-        image:"#",
-        tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
-        github: '#',
-        live: '#'
-        },
-        {
-        title: 'To-Do Application',
-        description: 'A full stack app',
-        image:"#",
-        tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
-        github: '#',
-        live: '#'
-        },
-        {
-        title: 'To-Do Application',
-        description: 'A full stack app',
-        image:"#",
-        tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
-        github: '#',
-        live: '#'
-        },
+        // {
+        // title: '6AI-Powered Smart Grocery List & Recipe Planner', // mobile aap  Scan pantry via camera/QR, gets real‑time inventory; suggests recipes based on what you have, your diet, local deals; auto‑generates shopping list.  AI expense splitter  inventory manager 
+        // description: 'A full stack app',
+        // image:"#",
+        // tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
+        // github: '#',
+        // live: '#'
+        // }
+        // {
+        // title: '7To-Do Application',
+        // description: 'A full stack app', // DevOps-2
+        // image:"#",
+        // tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
+        // github: '#',
+        // live: '#'
+        // },
+        // {
+        // title: '8To-Do Application',
+        // description: 'A full stack app', // AI- API
+        // image:"#",
+        // tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
+        // github: '#',
+        // live: '#'
+        // },
+        // {
+        // title: '9To-Do Application',
+        // description: 'A full stack app', // API- Trained
+        // image:"#",
+        // tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
+        // github: '#',
+        // live: '#'
+        // },
+        // {
+        // title: '10To-Do Application',
+        // description: 'A full stack app', // Web3- 1
+        // image:"#",
+        // tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
+        // github: '#',
+        // live: '#'
+        // },
+        // {
+        // title: '11To-Do Application',
+        // description: 'A full stack app', // Web3- 2
+        // image:"#",
+        // tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
+        // github: '#',
+        // live: '#'
+        // },
+        // {
+        // title: '12To-Do Application',
+        // description: 'A full stack app', // Start-up= 1
+        // image:"#",
+        // tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
+        // github: '#',
+        // live: '#'
+        // },
+        // {
+        // title: '13To-Do Application',
+        // description: 'A full stack app', // Start-up= 2
+        // image:"#",
+        // tags: ['React', 'Node.js', 'MongoDB', 'Typescript'],
+        // github: '#',
+        // live: '#'
+        // }
     ];
 
     const projectsPerPage=6;
